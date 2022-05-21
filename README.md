@@ -21,3 +21,9 @@
 
 
 
+```sql
+ALTER TABLE `players`
+	ADD COLUMN `pedname` LONGTEXT,
+	ADD COLUMN `pedcount` INT
+;
+````
