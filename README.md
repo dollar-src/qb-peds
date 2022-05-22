@@ -24,6 +24,6 @@
 ```sql
 ALTER TABLE `players`
 	ADD COLUMN `pedname` LONGTEXT,
-	ADD COLUMN `pedcount` INT
+        ADD COLUMN `pedcount`  INT(11) DEFAULT 0
 ;
 ````
